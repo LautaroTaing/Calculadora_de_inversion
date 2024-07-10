@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Inversión</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlazar el archivo de estilos CSS -->
+</head>
+<body>
+    <div class="container">
+        <h2>Calculadora de Inversión</h2>
+        <form id="inversionForm">
+            <label for="capital">Capital a invertir:</label>
+            <input type="number" id="capital" placeholder="Ingrese los USDT" required>
+
+            <label for="dias">Días de inversión:</label>
+            <input type="number" id="dias" placeholder="Ingrese los días" required>
+
+            <button type="button" id="calcularBtn">Calcular</button>
+        </form>
+
+        <div id="resultado" class="resultado">
+            <!-- Aquí se mostrará el resultado -->
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Enlazar el archivo de script JavaScript -->
+</body>
+</html>
+
